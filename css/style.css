@@ -83,6 +83,10 @@ img {
   align-items: center;
 }
 
+.header {
+  border-bottom: 1px solid;
+}
+
 .logo-link {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
@@ -91,10 +95,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.logo-link {
-  padding-left: 15px;
 }
 
 .logo-header {
@@ -179,11 +179,20 @@ img {
   color: var(--primary-text-color);
 }
 
+.info {
+  padding: 32px 0;
+}
+
 /* -------------------main style-------------------- */
 
 .main-section {
   background-color: var(--footer-background-color);
 }
+
+.main-section {
+  padding: 94px 0;
+}
+
 /* Главный заголовок */
 .main-title {
   font-weight: 900;
@@ -265,10 +274,13 @@ img {
   color: var(--title-text-color);
 }
 
+.portfolio-title {
+  margin-bottom: 4px;
+}
+
 .example-list {
   display: flex;
   justify-content: center;
-  margin-top: 125px;
 }
 
 .current-list:not(:first-child) {
@@ -305,6 +317,7 @@ img {
   padding: 20px 24px;
   border: 1px solid var(--border-main-color);
   border-top: none;
+  border: 0 1px 1px 1px;
 }
 
 .paragraf-name {
@@ -326,7 +339,6 @@ img {
 
 .list-of-benefits {
   display: flex;
-  padding: 94px 15px;
 }
 
 .point-advantages {
@@ -345,6 +357,10 @@ img {
 
 .benefits-text {
   margin-top: 10px;
+}
+
+.decision-section {
+  padding: 94 0;
 }
 
 .benefits-text {
@@ -375,12 +391,12 @@ img {
 }
 
 .hidden-list {
-  padding-top: 95px;
-  padding-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-employment {
-  padding-bottom: 95px;
+  padding: 94px 0;
 }
 
 .offer-list {
@@ -397,6 +413,13 @@ img {
 
 .point-specialist:not(:first-child) {
   margin-left: 30px;
+}
+
+.point-specialist {
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .hidden-header {
@@ -421,6 +444,10 @@ img {
   color: var(--title-text-color);
 }
 
+.specialist {
+  margin-bottom: 10px;
+}
+
 .specialist-name {
   font-weight: 400;
   font-size: 16px;
@@ -429,13 +456,17 @@ img {
   color: var(--primary-text-color);
 }
 
+.container-specialist {
+  padding: 30px 30px;
+}
+
 /* __________________footer stryle_________________ */
 
 .basement {
   background-color: var(--footer-background-color);
 }
 
-.bottom-part > .container {
+.main-section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
