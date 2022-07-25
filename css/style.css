@@ -84,7 +84,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-link {
@@ -105,6 +105,12 @@ img {
 .bottom {
   font-family: 'Roboto', sans-serif;
   color: var(--white-color);
+}
+
+.main-bottom {
+  background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* ссылки */
@@ -316,8 +322,8 @@ img {
 .container-project {
   padding: 20px 24px;
   border: 1px solid var(--border-main-color);
+  border: 1px solid #ececec;
   border-top: none;
-  border: 0 1px 1px 1px;
 }
 
 .paragraf-name {
@@ -360,7 +366,7 @@ img {
 }
 
 .decision-section {
-  padding: 94 0;
+  padding-top: 94px;
 }
 
 .benefits-text {
@@ -457,18 +463,14 @@ img {
 }
 
 .container-specialist {
-  padding: 30px 30px;
+  padding: 30px;
+  text-align: center;
 }
 
 /* __________________footer stryle_________________ */
 
 .basement {
   background-color: var(--footer-background-color);
-}
-
-.main-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .basement-list {
